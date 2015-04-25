@@ -24,7 +24,7 @@ test(struct mread_pool *m) {
 
 int
 main() {
-	struct mread_pool * m = mread_create(2525 , 10, 0);
+	struct mread_pool *m = mread_create(2525 , 10, 0);
 	if (m == NULL) {
 		perror("error:");
 		return 1;
